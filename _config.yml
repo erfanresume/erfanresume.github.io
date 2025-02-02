@@ -8,8 +8,8 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Erfan\nMoghadam"
-title_separator          : "-"
+title                    : "ERFAN RESUME"
+title_separator          : "\n"
 name                     : &name "Your Name"
 description              : &description "personal description"
 url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
@@ -58,7 +58,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         :  "https://www.linkedin.com/in/erfanresume/"
+  linkedin         :  "erfanresume"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username

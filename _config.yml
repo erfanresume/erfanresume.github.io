@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Erfan Moghadam / Site Title"
+title                    : "Erfan\nMoghadam"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
@@ -24,27 +24,27 @@ author:
   avatar           : "profile.png"
   name             : "Erfan Moghadam"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : ""
   location         : "Tehran"
   employer         : "Kharazmi University"
   uri              : # URL
-  email            : "erfanmoghaddam1999@gmail.com" 
+  email            : "www.erfanmoghaddam1999@gmail.com" 
 
   # Academic websites
-  arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-  impactstory      : # URL
+ # arxiv            : # URL - Update with the correct link to your profile
+  #googlescholar    : ""
+  #impactstory      : # URL
   orcid            : "https://orcid.org/0009-0004-6741-618X"
-  semantic         : # URL
-  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
-  scopus           : # URL
+  #semantic         : # URL
+ #pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  #researchgate     : # URL
+ # scopus           : # URL
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "https://github.com/Erfanresume"
+  github           : "Erfanresume"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -58,7 +58,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         :  "https://www.linkedin.com/in/erfanresume/"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username

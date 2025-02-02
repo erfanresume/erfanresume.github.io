@@ -26,8 +26,8 @@ author:
   pronouns         : # example: "she/her"  
   bio              : ""
   location         : "Tehran"
-  employer         : "Kharazmi University"
-  uri              :  "https://khu.ac.ir/en"
+  #employer         : "Kharazmi University"
+  #uri              :  "https://khu.ac.ir/en"
   email            : "www.erfanmoghaddam1999@gmail.com" 
 
   # Academic websites

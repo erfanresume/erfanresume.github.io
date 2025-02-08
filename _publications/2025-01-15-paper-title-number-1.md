@@ -2,7 +2,7 @@
 title: "Harmonizing Network Loads: A Survey of Load Balancing Strategies and Machine Learning Integration"
 collection: publications
 category: manuscripts
-permalink: /publication/2025-01-15-Load-Balancing-Strategies-and-Machine-Learning-Integration
+permalink: /publication/2025-01-15-paper-title-number-1
 excerpt: 'Under Review.'
 date: 2025-01-15
 venue: 'Wiley'

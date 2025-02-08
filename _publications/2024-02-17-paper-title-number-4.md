@@ -1,5 +1,5 @@
 ---
-title: "Paper Title Number 4"
+title: "IMICLiVAN: An Improved Method to Increase Cluster Lifetime in Vehicular Ad Hoc Networks (VANETs)"
 collection: publications
 category: conferences
 permalink: /publication/2024-02-17-paper-title-number-4

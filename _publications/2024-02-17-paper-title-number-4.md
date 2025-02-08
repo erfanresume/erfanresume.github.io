@@ -1,9 +1,9 @@
 ---
 title: "IMICLiVAN: An Improved Method to Increase Cluster Lifetime in Vehicular Ad Hoc Networks (VANETs)"
 collection: publications
-category: conferences
-permalink: /publication/2024-02-17-paper-title-number-4
-excerpt: 'This paper is about fixing template issue #693.'
+category: Journal
+permalink: /publication/2024-02-17-IMICLiVAN:-An-Improved-Method-to-Increase-Cluster-Lifetime-in-Vehicular-Ad-Hoc-Networks-(VANETs)
+excerpt: 'Under Review.'
 date: 2024-02-17
 venue: 'GitHub Journal of Bugs'
 paperurl: 'http://academicpages.github.io/files/paper3.pdf'

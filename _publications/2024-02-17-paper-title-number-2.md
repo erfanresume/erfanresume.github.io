@@ -2,7 +2,7 @@
 title: "IMICLiVAN: An Improved Method to Increase Cluster Lifetime in Vehicular Ad Hoc Networks (VANETs)"
 collection: publications
 category: manuscripts
-permalink: /publication/2024-02-17-IMICLiVAN:-An-Improved-Method-to-Increase-Cluster-Lifetime-in-Vehicular-Ad-Hoc-Networks-(VANETs)
+permalink: /publication/2024-02-17--paper-title-number-2
 excerpt: 'Under Review.'
 date: 2024-02-17
 venue: 'IEEE Acess'

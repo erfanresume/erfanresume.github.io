@@ -11,7 +11,7 @@ Hello! I’m Erfan Moghadam, a Computer Engineering gradute student at [Kharazmi
 
 I have two publications currently under review, and you can find details about my selected projects in my [CV](https://erfanresume.github.io/files/Resume_Erfan_Moghadam.pdf), which is available on this website. The goal of this site is to share my research, collaborate with like-minded professionals, and provide useful resources in the fields I’m passionate about.
 # Research Interests:
-  - Health Analytic
+  - AI in Healthcare
   - Machine Learning
   - Vehicular Ad-Hoc Networks (VANETs)
   - the Internet of Things (IoT)

@@ -7,14 +7,14 @@
 main:
 
   - title: "Education"
-    url: /teaching/ 
+    url: /portfolio/
     
   - title: "Publications"
     url: /publications/
       
   - title: "Teaching"
-    url: /portfolio/
-        
+    url: /teaching/ 
+    
   - title: "Honor & Awards"
     url: /year-archive/
     

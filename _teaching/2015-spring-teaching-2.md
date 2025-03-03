@@ -1,20 +1,14 @@
 ---
-title: "Teaching experience 2"
+title: "Adjunct Lecturer"
 collection: teaching
-type: "Workshop"
+type: "Logic Circuit Labratory "
 permalink: /teaching/2015-spring-teaching-1
-venue: "University 1, Department"
-date: 2015-01-01
-location: "City, Country"
+venue: "Amirkabir University of Technology (Tehran Polytechniq), Computer Engineering"
+date: Spring 2024- Fall 2024
+location: "Tehran, Iran"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
-
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
+Taught the fundamentals of digital logic circuit design and implementation with hands-on training, including:
+- Xilinx ISE training
+- Verilog programming instruction
+- Supervised FPGA-based projects, including smart parking systems

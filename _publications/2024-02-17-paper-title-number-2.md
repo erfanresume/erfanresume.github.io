@@ -5,7 +5,7 @@ category: manuscripts
 permalink: /publication/2024-02-17--paper-title-number-2
 excerpt: 'Under Review.'
 date: 2024-02-17
-venue: 'IEEE Acess'
+venue: ''
 # paperurl: 'http://academicpages.github.io/files/paper3.pdf'
 # citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
 ---

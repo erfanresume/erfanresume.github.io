@@ -1,5 +1,5 @@
 ---
-permalink: /Honor&Awards/
+permalink: /honor&awards/
 title: "Honor and Awards"
 author_profile: true
 redirect_from: 

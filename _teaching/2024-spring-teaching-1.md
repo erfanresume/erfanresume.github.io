@@ -4,7 +4,7 @@ collection: teaching
 type: "Ciruit Logic Labratory"
 permalink: /teaching/2024-spring-teaching-1
 venue: "Amirkabir University of Technology(Tehran Polytechniq), Computer Engineering"
-date: Spring 2024  
+date: 2024-01-21  
 location: "Tehran, Iran"
 ---
 

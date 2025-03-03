@@ -4,8 +4,14 @@ title: "Teaching Experiences"
 author_profile: true
 redirect_from: 
 ---
+## Teaching Assistant
+*University of Tehran, Facaulty of Computer Engineering, Fall 2024*
+### Advance Computer Networks
+Collaborated on delivering lectures, grade assignments, and assist students with course material.
+
 ## Adjunct Lecturer
-*Amirkabir University of Technology (Tehran Polytechniq), Facaulty of Computer Engineering, Spring 2024 - Fall 2024*
+*Amirkabir University of Technology (Tehran Polytechniq), Facaulty of Computer Engineering<br>
+ Spring 2024 - Fall 2024*
 ### Logic Circuit Labratory 
 Taught the fundamentals of digital logic circuit design and implementation with hands-on training, including:
 - Xilinx ISE training
@@ -13,9 +19,9 @@ Taught the fundamentals of digital logic circuit design and implementation with 
 - Supervised FPGA-based projects, including smart parking systems
 
 ## Teaching Assistant
-*University of Tehran, Facaulty of Computer Engineering, Fall 2023*
+*University of Tehran, Facaulty of Computer Engineering<br>
+Fall 2023*
 ### Advance Computer Networks
-
 Collaborated on delivering lectures, grade assignments, and assist students with course material.
 
 ## Teaching Assistant

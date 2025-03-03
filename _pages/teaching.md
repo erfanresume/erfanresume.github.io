@@ -26,7 +26,8 @@ redirect_from:
   Collaborated on delivering lectures, grade assignments, and assist students with course material.
 
 ## Teaching Assistant
-*Kharazmi University of Tehran, Facaulty of Computer Engineering* ### - Advance Computer Systems Architecture
+*Kharazmi University of Tehran, Facaulty of Computer Engineering* 
+### - Advance Computer Systems Architecture
 <sub>**Spring 2023*</sub><br>
   Delivered lectures on pipeline architecture, single-cycle processors, and advanced computer systems design. Supervised Verilog-based projects, focusing on practical applications in system design.
 ### - Fault Tolerant Systems

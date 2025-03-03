@@ -5,16 +5,16 @@ author_profile: true
 redirect_from: 
 ---
 ## Teaching Assistant
-*University of Tehran, Facaulty of Computer Engineering<br>
-Spring 2025*
+*University of Tehran, Facaulty of Computer Engineering*<br>
+<sub>*Spring 2025*</sub>
 - ### Advance Computer Networks<br>
 Currently working...
 
 ## Adjunct Lecturer
-*Amirkabir University of Technology (Tehran Polytechniq), Facaulty of Computer Engineering<br>
- Spring 2024 - Fall 2024*
+*Amirkabir University of Technology (Tehran Polytechniq), Facaulty of Computer Engineering*<br>
+<sub>*Spring 2024 - Fall 2024*</sub>
 - ### Logic Circuit Labratory<br> 
-Taught the fundamentals of digital logic circuit design and implementation with hands-on training, including:
+Taught the fundamentals of digital logic circuit design and implementation with hands-on training, including:<br>
 -- Xilinx ISE training
 -- Verilog programming instruction
 -- Supervised FPGA-based projects, including smart parking systems

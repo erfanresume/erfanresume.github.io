@@ -1,11 +1,11 @@
 ---
-title: "Adjunct Lecturer"
+title: "Teaching experience 1"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2024-spring-teaching-1
-venue: "Amirkabir University of Technology (Tehran Polytechniq), Computer Engineering"
-date: Spring 2024
-location: "Tehran, Iran"
+venue: "University 1, Department"
+date: 2014-01-01
+location: "City, Country"
 ---
 
 Taught the fundamentals of digital logic circuit design and implementation with hands-on training, including:

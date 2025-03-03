@@ -21,15 +21,15 @@ Collaborated on delivering lectures, grade assignments, and assist students with
 ## Teaching Assistant
 *Kharazmi University of Tehran, Facaulty of Computer Engineering*
 ### - Advance Computer Systems Architecture
-*Spring 2023*
+*Spring 2023*<br>
 Delivered lectures on pipeline architecture, single-cycle processors, and advanced computer systems design. Supervised Verilog-based projects, focusing on practical applications in system design.
 ### - Fault Tolerant Systems
-*Spring 2023*
+*Spring 2023*<br>
 Collaborated on delivering lectures on fault-tolerant systems and their applications in healthcare and IoT. Provided comprehensive support to help students master fault tolerance concepts and methodologies.
 
 ## Teaching Assistant
 *University of Tehran, Facaulty of Computer Engineering*
 ### Natural Language and Speech Processing
-*Fall 2023*
+*Fall 2023*<br>
 Assisted in delivering lectures and guiding students through fundamental concepts of Natural Language Processing. Evaluated assignments and provided technical support for student projects.
 

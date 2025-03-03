@@ -5,7 +5,8 @@ author_profile: true
 redirect_from: 
 ---
 ## Teaching Assistant
-*University of Tehran, Facaulty of Computer Engineering, Fall 2024*
+*University of Tehran, Facaulty of Computer Engineering<br>
+Spring 2025*
 ### Advance Computer Networks
 Collaborated on delivering lectures, grade assignments, and assist students with course material.
 

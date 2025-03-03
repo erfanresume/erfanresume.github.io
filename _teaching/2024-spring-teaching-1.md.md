@@ -1,8 +1,8 @@
 ---
 title: "Adjunct Lecturer"
 collection: teaching
-type: "Logic Circuit Labratory "
-permalink: /teaching/Amirkabir-2024-fall-spring
+type: "Undergraduate course"
+permalink: /teaching/2024-spring-teaching-1
 venue: "Amirkabir University of Technology (Tehran Polytechniq), Computer Engineering"
 date: Spring 2024
 location: "Tehran, Iran"

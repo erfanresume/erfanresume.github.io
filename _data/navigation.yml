@@ -6,8 +6,8 @@
 
 main:
 
-  - title: "Education"
-    url: /portfolio/
+ # - title: "Education"
+ #   url: /portfolio/
     
   - title: "Publications"
     url: /publications/

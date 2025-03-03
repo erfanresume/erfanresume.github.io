@@ -1,7 +1,7 @@
 ---
 title: "Adjunct Lecturer"
 collection: teaching
-type: "Undergraduate course"
+type: "Ciruit Logic Labratory"
 permalink: /teaching/2024-spring-teaching-1
 venue: "Amirkabir University of Technology(Tehran Polytechniq), Computer Engineering"
 date: 2014-01-01

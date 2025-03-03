@@ -8,7 +8,7 @@ redirect_from:
 ### - Advance Computer Networks
 <sub>*University of Tehran, Facaulty of Computer Engineering*</sub><br>
 <sub>*Spring 2025*</sub><br>
-Currently working...
+<small>Currently working...</small>
 
 ## Adjunct Lecturer
 ### - Logic Circuit Labratory

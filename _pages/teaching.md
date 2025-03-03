@@ -12,7 +12,7 @@ Currently working...
 
 ## Adjunct Lecturer
 ### - Logic Circuit Labratory
-<sub>*Amirkabir University of Technology (Tehran Polytechniq), Facaulty of Computer Engineering*<sub><br>
+<sub>*Amirkabir University of Technology (Tehran Polytechniq), Facaulty of Computer Engineering*</sub><br>
 <sub>*Spring 2024 - Fall 2024*</sub><br>
 Taught the fundamentals of digital logic circuit design and implementation with hands-on training, including:<br>
 - Xilinx ISE training
@@ -20,22 +20,23 @@ Taught the fundamentals of digital logic circuit design and implementation with 
 - Supervised FPGA-based projects, including smart parking systems
 
 ## Teaching Assistant
-*University of Tehran, Facaulty of Computer Engineering*<br>
-<sub>*Fall 2023*</sub>
 ### - Advance Computer Networks
+<sub>*University of Tehran, Facaulty of Computer Engineering*</sub><br>
+<sub>*Fall 2023*</sub>
 Collaborated on delivering lectures, grade assignments, and assist students with course material.
 
 ## Teaching Assistant
-*Kharazmi University of Tehran, Facaulty of Computer Engineering* 
 ### - Advance Computer Systems Architecture
+<sub>*Kharazmi University of Tehran, Facaulty of Computer Engineering*</sub>
 <sub>*Spring 2023*</sub><br>
 Delivered lectures on pipeline architecture, single-cycle processors, and advanced computer systems design. Supervised Verilog-based projects, focusing on practical applications in system design.
 ### - Fault Tolerant Systems
+<sub>*Kharazmi University of Tehran, Facaulty of Computer Engineering*</sub>
 <sub>*Spring 2023*</sub><br>
 Collaborated on delivering lectures on fault-tolerant systems and their applications in healthcare and IoT. Provided comprehensive support to help students master fault tolerance concepts and methodologies.
 
 ## Teaching Assistant
-*University of Tehran, Facaulty of Computer Engineering*
 ### - Natural Language and Speech Processing (NLP)
+<sub>*University of Tehran, Facaulty of Computer Engineering*</sub>
 <sub>*Fall 2023*</sub><br>
 Assisted in delivering lectures and guiding students through fundamental concepts of Natural Language Processing. Evaluated assignments and provided technical support for student projects.

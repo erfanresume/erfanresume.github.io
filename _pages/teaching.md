@@ -7,14 +7,13 @@ redirect_from:
 ## Teaching Assistant
 *University of Tehran, Facaulty of Computer Engineering<br>
 Spring 2025*
+- Advance Computer Networks
 Currently working...
-### Advance Computer Networks
-Collaborated on delivering lectures, grade assignments, and assist students with course material.
 
 ## Adjunct Lecturer
 *Amirkabir University of Technology (Tehran Polytechniq), Facaulty of Computer Engineering<br>
  Spring 2024 - Fall 2024*
-- Logic Circuit Labratory 
+- Logic Circuit Labratory<br> 
 Taught the fundamentals of digital logic circuit design and implementation with hands-on training, including:
 -- Xilinx ISE training
 -- Verilog programming instruction

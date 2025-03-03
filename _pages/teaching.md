@@ -1,4 +1,4 @@
- ---
+---
 permalink: /teaching/
 title: "Teaching Experiences"
 author_profile: true
@@ -39,4 +39,3 @@ Collaborated on delivering lectures on fault-tolerant systems and their applicat
 ### - Natural Language and Speech Processing (NLP)
 <sub>**Fall 2023*</sub>*<br>
 Assisted in delivering lectures and guiding students through fundamental concepts of Natural Language Processing. Evaluated assignments and provided technical support for student projects.
-

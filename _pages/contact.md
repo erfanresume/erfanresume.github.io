@@ -1,0 +1,9 @@
+---
+title: "Contact"
+
+---
+# Contact information is below, including email and various web services.
+ - Email: erfanmoghaddam1999 [at] gmail.com
+ - Email: erfanmoghadam [at] khu.ac.ir
+ - Linkedin: [erfanresume](https://www.linkedin.com/in/erfanresume/)
+ - GitHub: [erfanresume](https://github.com/Erfanresume)

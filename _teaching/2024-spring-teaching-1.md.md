@@ -4,7 +4,7 @@ collection: teaching
 type: "Logic Circuit Labratory "
 permalink: /teaching/Amirkabir-2024-fall-spring
 venue: "Amirkabir University of Technology (Tehran Polytechniq), Computer Engineering"
-date: Spring 2024- Fall 2024
+date: Spring 2024 - Fall 2024
 location: "Tehran, Iran"
 ---
 

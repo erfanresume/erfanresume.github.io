@@ -1,6 +1,8 @@
 ---
+permalink: /contact/
 title: "Contact"
-
+author_profile: true
+redirect_from: 
 ---
 # Contact information is below, including email and various web services.
  - Email: erfanmoghaddam1999 [at] gmail.com

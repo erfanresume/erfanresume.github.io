@@ -32,5 +32,5 @@ Collaborated on delivering lectures on fault-tolerant systems and their applicat
 
 ## Teaching Assistant
 ### - Natural Language and Speech Processing (NLP)
-<sub>*University of Tehran, Facaulty of Computer Engineering, Fall 2023*</sub><br>
+<sub>*University of Zanjan, Facaulty of Computer Engineering, Fall 2023*</sub><br>
 Assisted in delivering lectures and guiding students through fundamental concepts of Natural Language Processing. Evaluated assignments and provided technical support for student projects.

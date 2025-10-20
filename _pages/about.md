@@ -9,7 +9,7 @@ redirect_from:
 
 Hello! I’m Erfan Moghadam, a Computer Engineering gradute student at [Kharazmi University of Tehran](https://khu.ac.ir/en), where I am advised by Amir Asghari and Mohammadreza Binesh Marvasti within the School of Engineering. I hold a Bachelor’s degree in Computer Engineering from [University of Zanjan](https://www.znu.ac.ir/en), with a GPA of 3.27/4, and I’m currently pursuing my Master of Science with a perfect GPA of 4/4.
 
-I have two publications currently under review, and you can find details about my selected projects in my [CV](https://erfanresume.github.io/files/Resume_Erfan_Moghadam.pdf), which is available on this website. The goal of this site is to share my research, collaborate with like-minded professionals, and provide useful resources in the fields I’m passionate about.
+I have two publications currently under review, and you can find details about my selected projects in my [CV](https://github.com/erfanresume/erfanresume.github.io/blob/master/files/CV_ErfanMoghadam.pdf), which is available on this website. The goal of this site is to share my research, collaborate with like-minded professionals, and provide useful resources in the fields I’m passionate about.
 # Research Interests:
   - AI in Healthcare
   - Machine Learning

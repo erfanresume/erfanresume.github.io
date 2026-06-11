@@ -35,9 +35,8 @@ layout: default
         {% endif %}
         
         {% if page.collection == 'teaching' %}
-          <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
-        {% elsif page.venue and page.date %}
-          <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
+          <p>{{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }}</p>
+        {% elsif page.collection == 'publications' %}
           {% if page.status == 'under_review' %}
             <p>Under review at <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }}</p>
           {% elsif page.status == 'submitted' %}
@@ -49,8 +48,19 @@ layout: default
           {% else %}
             <p><i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }}</p>
           {% endif %}
+        {% elsif page.venue and page.date %}
+          <p><i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }}</p>
         {% elsif page.date %}
-          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
+          <p class="page__date">
+            <strong>
+              <i class="fa fa-fw fa-calendar" aria-hidden="true"></i>
+              {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}
+            </strong>
+            <time datetime="{{ page.date | date_to_xmlschema }}">
+              {{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}
+            </time>
+          </p>
+        
         {% endif %}    
         </header>
       {% endunless %}

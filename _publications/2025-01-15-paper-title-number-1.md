@@ -3,9 +3,9 @@ title: "Machine Learning-Based Load Balancing in Edge and 5G Networks: A Survey"
 collection: publications
 category: manuscripts
 permalink: /publication/2025-01-15-paper-title-number-1
-excerpt: 'Under Review.'
+excerpt: 'Under Review in IEEE Access'
 date: 2026-06-10
-venue: 'sdfsf'
+venue: ''
 # paperurl: 'http://academicpages.github.io/files/paper3.pdf'
 # citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
 ---

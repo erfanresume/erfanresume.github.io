@@ -6,7 +6,7 @@ permalink: /publication/2024-02-17--paper-title-number-2
 excerpt: 'Published.'
 date: 2026-04-03
 venue: 'The Journal of Supercomputing, Springer Nature'
-paperurl: 'https://link.springer.com/article/10.1007/s11227-026-08358-z)](https://link.springer.com/article/10.1007/s11227-026-08358-z'
+paperurl: 'https://link.springer.com/article/10.1007/s11227-026-08358-z'
 citation: 'Moghadam, E., Asghari, E., Asghari, S.A. et al. IMICLiVAN: an improved method to increase cluster lifetime in vehicular ad hoc networks (VANETs). J Supercomput 82, 319 (2026). https://doi.org/10.1007/s11227-026-08358-z'
 ---
 

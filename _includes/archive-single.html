@@ -46,7 +46,7 @@
             <p>Submitted at <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
           {% if post.status == 'accepted' %}
             <p>Accepted at <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
-          {% else %}
+          {% else post.status == published%}
             <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
           {% endif %}
         <!--{% elsif post.collection == 'publications' %}

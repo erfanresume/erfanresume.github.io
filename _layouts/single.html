@@ -35,22 +35,29 @@ layout: default
         {% endif %}
         
         {% if page.collection == 'teaching' %}
+
           <p>{{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }}</p>
+        
         {% elsif page.collection == 'publications' %}
+        
           {% if page.status == 'under_review' %}
             <p>Under review at <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }}</p>
+        
           {% elsif page.status == 'submitted' %}
             <p>Submitted at <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }}</p>
+        
           {% elsif page.status == 'accepted' %}
             <p>Accepted at <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }}</p>
+        
           {% elsif page.status == 'published' %}
             <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }}</p>
+        
           {% else %}
             <p><i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }}</p>
           {% endif %}
-        {% elsif page.venue and page.date %}
-          <p><i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }}</p>
+        
         {% elsif page.date %}
+        
           <p class="page__date">
             <strong>
               <i class="fa fa-fw fa-calendar" aria-hidden="true"></i>

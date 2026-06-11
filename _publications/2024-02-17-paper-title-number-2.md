@@ -3,7 +3,7 @@ title: "IMICLiVAN: An Improved Method to Increase Cluster Lifetime in Vehicular 
 collection: publications
 category: manuscripts 
 permalink: /publication/2024-02-17--paper-title-number-2
-excerpt: 'Published.'
+excerpt: ''
 date: 2026-04-03
 venue: 'The Journal of Supercomputing, Springer Nature'
 paperurl: 'http://academicpages.github.io/files/IMICLiVAN.pdf'

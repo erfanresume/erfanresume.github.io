@@ -33,3 +33,4 @@ tion over multiple candidate-K values) and distance-driven computations become
 increasingly demanding in dense or city-scale VANETs; therefore, IMICLiVAN is 
 designed to be amenable to parallel and distributed execution (e.g., RSU/MEC or 
 cloud/HPC backends) to help meet strict latency constraints in real-time operation.
+You can find the artcle [here](https://link.springer.com/article/10.1007/s11227-026-08358-z)

@@ -112,6 +112,26 @@ pre {
   line-height: 1;
 }
 
-.theme-toggle:hover {
-  opacity: 0.75;
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  padding: 0;
+  border: 1px solid var(--site-border);
+  border-radius: 50%;
+  background: var(--site-surface);
+  color: var(--site-text);
+  cursor: pointer;
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.theme-toggle::before {
+  content: "🌙";
+}
+
+html[data-theme="dark"] .theme-toggle::before {
+  content: "☀️";
 }

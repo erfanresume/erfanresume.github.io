@@ -1,4 +1,4 @@
-(function () {
+/*(function () {
   function initThemeToggle() {
     const root = document.documentElement;
     const button = document.getElementById("theme-toggle");
@@ -43,3 +43,4 @@
     initThemeToggle();
   }
 })();
+*/

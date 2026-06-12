@@ -1,16 +1,21 @@
-(function () {
+document.addEventListener("DOMContentLoaded", function () {
   const root = document.documentElement;
   const button = document.getElementById("theme-toggle");
+
+  if (!button) {
+    console.error("Theme toggle button not found");
+    return;
+  }
 
   function applyTheme(theme) {
     root.setAttribute("data-theme", theme);
 
-    if (button) {
-      button.textContent = theme === "dark" ? "☀️" : "🌙";
-      button.setAttribute(
-        "aria-label",
-        theme === "dark" ? "Switch to light mode" : "Switch to dark mode"
-      );
+    if (theme === "dark") {
+      button.textContent = "☀️";
+      button.setAttribute("aria-label", "Switch to light mode");
+    } else {
+      button.textContent = "🌙";
+      button.setAttribute("aria-label", "Switch to dark mode");
     }
   }
 
@@ -20,13 +25,11 @@
 
   applyTheme(initialTheme);
 
-  if (button) {
-    button.addEventListener("click", function () {
-      const currentTheme = root.getAttribute("data-theme");
-      const nextTheme = currentTheme === "dark" ? "light" : "dark";
+  button.addEventListener("click", function () {
+    const currentTheme = root.getAttribute("data-theme") || "light";
+    const nextTheme = currentTheme === "dark" ? "light" : "dark";
 
-      localStorage.setItem("theme", nextTheme);
-      applyTheme(nextTheme);
-    });
-  }
-})();
+    localStorage.setItem("theme", nextTheme);
+    applyTheme(nextTheme);
+  });
+});

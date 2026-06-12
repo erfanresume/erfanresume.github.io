@@ -5,7 +5,6 @@ author_profile: true
 redirect_from: 
 ---
 
-
 ## Teaching Assistant — Advanced Computer Networks  
 <sub>*University of Tehran, Data Science and Technology Group, Faculty of Intelligent Systems Engineering*</sub>
 

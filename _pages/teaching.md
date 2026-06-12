@@ -1,4 +1,3 @@
-<!--
 ---
 permalink: /teaching/
 title: "Teaching Experiences"
@@ -35,4 +34,4 @@ Collaborated on delivering lectures on fault-tolerant systems and their applicat
 ### - Natural Language and Speech Processing (NLP)
 <sub>*University of Zanjan, Facaulty of Computer Engineering, Fall 2023*</sub><br>
 Assisted in delivering lectures and guiding students through fundamental concepts of Natural Language Processing. Evaluated assignments and provided technical support for student projects.
--->
+

@@ -1,13 +1,12 @@
 ---
 permalink: /teaching/
-title: "Teaching Experiences"
+title: "Teaching Experience"
 author_profile: true
 redirect_from: 
 ---
 
-## Teaching Experience
 
-### Teaching Assistant — Advanced Computer Networks  
+## Teaching Assistant — Advanced Computer Networks  
 <sub>*University of Tehran, Data Science and Technology Group, Faculty of Intelligent Systems Engineering*</sub>
 
 - **Feb 2026 – Present:** Supporting course delivery by contributing to lectures, grading assignments, designing course assignments, and supervising final projects.
@@ -16,7 +15,7 @@ redirect_from:
   
 ---
 
-### Adjunct Lecturer — Logic Circuits Laboratory  
+## Adjunct Lecturer — Logic Circuits Laboratory  
 <sub>*Amirkabir University of Technology (Tehran Polytechnic), Faculty of Computer Engineering — Sep 2024 – Feb 2025*</sub>
 
 Taught the fundamentals of digital logic circuit design and practical implementation through hands-on laboratory sessions. Responsibilities included:
@@ -28,7 +27,7 @@ Taught the fundamentals of digital logic circuit design and practical implementa
 
 ---
 
-### Teaching Assistant — Computer Engineering Courses  
+## Teaching Assistant — Computer Engineering Courses  
 <sub>*Kharazmi University, Faculty of Computer Engineering — Tehran, Iran | September 2023 – February 2024*</sub>
 
 - **Advanced Computer Architecture:** Assisted in teaching advanced computer architecture concepts and supported students with coursework, assignments, and technical discussions related to processor design, memory hierarchy, pipelining, and parallel computing.
@@ -39,7 +38,7 @@ Taught the fundamentals of digital logic circuit design and practical implementa
 
 ---
 
-### Teaching Assistant — Natural Language and Speech Processing  
+## Teaching Assistant — Natural Language and Speech Processing  
 <sub>*University of Zanjan, Faculty of Computer Engineering — Zanjan, Iran | September 2020 – February 2021*</sub>
 
 Assisted in course delivery by supporting lectures, guiding students through fundamental concepts of natural language processing and speech processing, evaluating assignments, and providing technical support for student projects.

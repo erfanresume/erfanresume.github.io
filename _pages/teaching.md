@@ -1,10 +1,9 @@
 
 ---
-layout: archive
 permalink: /teaching/
-title: "Teaching Experience"
+title: "Teaching Experiences"
 author_profile: true
-redirect_from:
+redirect_from: 
 ---
 
 ## Teaching Experience

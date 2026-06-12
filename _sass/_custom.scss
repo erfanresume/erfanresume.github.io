@@ -138,3 +138,16 @@ pre {
 html[data-theme="dark"] .theme-toggle::before {
   content: "☀️";
 }
+
+.masthead__menu-item--theme {
+  display: flex;
+  align-items: center;
+  margin-left: 0.75rem;
+}
+
+.masthead__menu-item--theme .theme-toggle {
+  vertical-align: middle;
+}
+.masthead__menu-item--theme {
+  transform: translateY(1px);
+}

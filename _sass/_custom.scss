@@ -124,12 +124,15 @@ pre {
   background: var(--site-surface);
   color: var(--site-text);
   cursor: pointer;
-  font-size: 1rem;
   line-height: 1;
+
+  /* این خط هر متن اضافه داخل دکمه را پنهان می‌کند */
+  font-size: 0;
 }
 
 .theme-toggle::before {
   content: "🌙";
+  font-size: 1rem;
 }
 
 html[data-theme="dark"] .theme-toggle::before {

@@ -21,7 +21,21 @@
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
-      <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Switch to dark mode">
+      <button
+        id="theme-toggle"
+        class="theme-toggle"
+        type="button"
+        aria-label="Toggle dark mode"
+        onclick="
+          var root = document.documentElement;
+          var current = root.getAttribute('data-theme') || localStorage.getItem('theme') || 'light';
+          var next = current === 'dark' ? 'light' : 'dark';
+          root.setAttribute('data-theme', next);
+          localStorage.setItem('theme', next);
+          this.textContent = next === 'dark' ? '☀️' : '🌙';
+          this.setAttribute('aria-label', next === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
+        "
+      >
         🌙
       </button>
     </div>

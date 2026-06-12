@@ -98,7 +98,58 @@ pre {
   color: var(--site-text) !important;
   border-color: var(--site-border) !important;
 }
+.masthead__menu-item--theme {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  margin-left: 0.9rem !important;
+  padding: 0 !important;
+  line-height: 1 !important;
 
+  /* بالا/پایین کردن دکمه */
+  transform: translateY(-4px);
+}
+
+.theme-toggle {
+  -webkit-appearance: none !important;
+  appearance: none !important;
+
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  width: 1.75rem !important;
+  height: 1.75rem !important;
+  min-width: 1.75rem !important;
+  min-height: 1.75rem !important;
+
+  padding: 0 !important;
+  margin: 0 !important;
+
+  border-radius: 50% !important;
+  border: 1px solid var(--site-border) !important;
+
+  background-color: var(--site-surface) !important;
+  color: var(--site-text) !important;
+
+  cursor: pointer;
+  line-height: 1 !important;
+  font-size: 0 !important;
+
+  box-shadow: none !important;
+}
+
+.theme-toggle::before {
+  content: "🌙";
+  display: block;
+  font-size: 0.95rem;
+  line-height: 1;
+}
+
+html[data-theme="dark"] .theme-toggle::before {
+  content: "☀️";
+}
+/*
 .theme-toggle {
   margin-left: 1rem;
   border: 1px solid var(--site-border);
@@ -126,7 +177,7 @@ pre {
   cursor: pointer;
   line-height: 1;
 
-  /* این خط هر متن اضافه داخل دکمه را پنهان می‌کند */
+
   font-size: 0;
 }
 
@@ -151,3 +202,4 @@ html[data-theme="dark"] .theme-toggle::before {
 .masthead__menu-item--theme {
   transform: translateY(1px);
 }
+*/

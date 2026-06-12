@@ -38,6 +38,20 @@
       >
         🌙
       </button>
+      <script>
+        (function () {
+          var button = document.getElementById("theme-toggle");
+          var theme = localStorage.getItem("theme") || "light";
+      
+          if (button) {
+            button.textContent = theme === "dark" ? "☀️" : "🌙";
+            button.setAttribute(
+              "aria-label",
+              theme === "dark" ? "Switch to light mode" : "Switch to dark mode"
+            );
+          }
+        })();
+      </script>
     </div>
   </div>
 </div>

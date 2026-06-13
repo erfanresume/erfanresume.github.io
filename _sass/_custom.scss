@@ -150,10 +150,18 @@ html[data-theme="dark"] .theme-toggle::before {
   content: "☀️";
 }
 
-html[data-theme="dark"] .author__urls .fa-github,
-html[data-theme="dark"] .author__urls .fab.fa-github {
+html[data-theme="dark"] .author__urls-wrapper a[href*="github" i],
+html[data-theme="dark"] .author__urls-wrapper a[href*="github" i] *,
+html[data-theme="dark"] .author__urls-wrapper a[href*="github" i] i,
+html[data-theme="dark"] .author__urls-wrapper a[href*="github" i] .fa,
+html[data-theme="dark"] .author__urls-wrapper a[href*="github" i] .fab,
+html[data-theme="dark"] .author__urls-wrapper a[href*="github" i] .fa-github,
+html[data-theme="dark"] .author__urls-wrapper a[href*="github" i] svg,
+html[data-theme="dark"] .author__urls-wrapper a[href*="github" i] svg path {
   color: #ffffff !important;
   fill: #ffffff !important;
+  stroke: #ffffff !important;
+}
 }
 /*
 .theme-toggle {

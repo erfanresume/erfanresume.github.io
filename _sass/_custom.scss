@@ -149,6 +149,12 @@ pre {
 html[data-theme="dark"] .theme-toggle::before {
   content: "☀️";
 }
+
+html[data-theme="dark"] .author__urls .fa-github,
+html[data-theme="dark"] .author__urls .fab.fa-github {
+  color: #ffffff !important;
+  fill: #ffffff !important;
+}
 /*
 .theme-toggle {
   margin-left: 1rem;

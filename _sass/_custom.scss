@@ -1,12 +1,9 @@
 :root {
   --site-bg: #ffffff;
   --site-surface: #ffffff;
-  /*--site-text: #494e52;*/
-  --site-text: #000000;
-  --site-muted: #000000;
-  --site-heading: #000000;
-  /*--site-muted: #6f777d;*/
-  /*--site-heading: #3d4144;*/
+  --site-text: #494e52;
+  --site-muted: #6f777d;
+  --site-heading: #3d4144;
   --site-link: #52adc8;
   --site-border: #f2f3f3;
   --site-masthead: #ffffff;
@@ -15,12 +12,9 @@
 html[data-theme="dark"] {
   --site-bg: #111418;
   --site-surface: #171b20;
-  /*--site-text: #d7dce0;
+  --site-text: #d7dce0;
   --site-muted: #a3abb2;
   --site-heading: #f1f4f6;
-  --site-text: #d7dce0;*/
-  --site-muted: #ffffff;
-  --site-heading: #ffffff;
   --site-link: #ffffff;
   --site-border: #2a3038;
   --site-masthead: #15191e;
@@ -113,7 +107,7 @@ pre {
   line-height: 1 !important;
 
   /* بالا/پایین کردن دکمه */
-  transform: translateY(1px);
+  transform: translateY(0px);
 }
 
 .theme-toggle {

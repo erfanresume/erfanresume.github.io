@@ -6,7 +6,7 @@ permalink: /publication/2025-01-15-paper-title-number-1
 excerpt: ''
 date: 2026-08-26
 status: Published #status could be under_review, submitted, accepted
-venue: 'IEEE Access'
+venue: 'IEEE Open Journal of the Communications Society (OJ-COMS)'
 # paperurl: 'http://academicpages.github.io/files/paper3.pdf'
 # citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
 ---

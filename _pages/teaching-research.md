@@ -1,5 +1,5 @@
 ---
-permalink: /teaching/
+permalink: /teaching & research/
 title: ""
 author_profile: true
 redirect_from: 

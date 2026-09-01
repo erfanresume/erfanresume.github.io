@@ -18,7 +18,9 @@ redirect_from:
   - Collected, organized, and analyzed simulation data to support ongoing research activities.
   - Mentored seminar students under Dr. Amir Asghari’s supervision, providing research guidance on thesis development, literature review, methodology       design, and manuscript preparation for potential journal publication.
   - Leading the bachelor, master and P.h.D students for the research.
+
 ---
+
 # Teaching Experience
 
 ## Teaching Assistant <span style="font-size: 0.72em; font-weight: 500;"> — Advanced Computer Networks  

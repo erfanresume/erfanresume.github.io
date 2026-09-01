@@ -10,8 +10,11 @@ redirect_from:
 <sub>*University of Tehran, Data Science and Technology Group, Faculty of Intelligent Systems Engineering*</sub>
 
 - **Feb 2026 – Present:**
+  
   - My tasks:
+    
   -- Assisted with study design, protocol development, and research planning for projects in intelligent transportation systems and vehicular networks.
+    
   -- Implemented technical components and performed data analysis for research experiments.
     
   -- Collected, organized, and analyzed simulation data to support ongoing research activities.

@@ -42,4 +42,4 @@ ing critical open challenges in scalability, real-world validation,
 sim-to-real transfer, and standardized reporting. This work is
 intended as a structured reference for researchers, network engi
 neers, and decision-makers developing intelligent load-balancing
-strategies for edge and next-generation communication systems.
+strategies for edge and next-generation communication systems. You can see the paper by clicking [here](https://link.springer.com/article/10.1007/s11227-026-08358-z)

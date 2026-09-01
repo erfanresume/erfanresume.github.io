@@ -4,7 +4,18 @@ title: ""
 author_profile: true
 redirect_from: 
 ---
+# Research Experience
 
+## Research Assistant — Intelligent Transportation Systems and Road Safety  
+<sub>*University of Tehran, Data Science and Technology Group, Faculty of Intelligent Systems Engineering*</sub>
+
+- **Feb 2026 – Present:** My tasks:
+-- Assisted with study design, protocol development, and research planning for projects in intelligent transportation systems and vehicular networks.
+-- Implemented technical components and performed data analysis for research experiments.
+-- Collected, organized, and analyzed simulation data to support ongoing research activities.
+-- Mentored seminar students under Dr. Amir Asghari’s supervision, providing research guidance on thesis development, literature review, methodology design, and manuscript preparation for potential journal publication.
+-- Leading the bachelor, master and P.h.D students for the research.
+  
 # Teaching Experience
 
 ## Teaching Assistant — Advanced Computer Networks  

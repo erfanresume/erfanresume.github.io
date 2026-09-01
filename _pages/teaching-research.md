@@ -6,7 +6,7 @@ redirect_from:
 ---
 # Research Experience
 
-## Research Assistant — Intelligent Transportation Systems and Road Safety  
+## Research Assistant — <span style="font-size: 0.72em; font-weight: 500;">Intelligent Transportation Systems and Road Safety</span>
 <sub>*University of Tehran, Data Science and Technology Group, Faculty of Intelligent Systems Engineering*</sub>
 
 - **Feb 2026 – Present:**

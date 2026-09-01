@@ -7,7 +7,7 @@ excerpt: ''
 date: 2026-08-26
 status: Published #status could be under_review, submitted, accepted
 venue: 'IEEE Open Journal of the Communications Society (OJ-COMS)'
-# paperurl: 'http://academicpages.github.io/files/paper3.pdf'
+# paperurl: 'https://doi.org/10.1109/OJCOMS.2026.3728736'
 # citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
 ---
 

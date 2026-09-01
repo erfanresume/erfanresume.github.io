@@ -13,15 +13,15 @@ redirect_from:
   
   - My tasks:
     
-  -- Assisted with study design, protocol development, and research planning for projects in intelligent transportation systems and vehicular networks.
+  - Assisted with study design, protocol development, and research planning for projects in intelligent transportation systems and vehicular networks.
     
-  -- Implemented technical components and performed data analysis for research experiments.
+  - Implemented technical components and performed data analysis for research experiments.
     
-  -- Collected, organized, and analyzed simulation data to support ongoing research activities.
+  - Collected, organized, and analyzed simulation data to support ongoing research activities.
   
-  -- Mentored seminar students under Dr. Amir Asghari’s supervision, providing research guidance on thesis development, literature review, methodology       design, and manuscript preparation for potential journal publication.
+  - Mentored seminar students under Dr. Amir Asghari’s supervision, providing research guidance on thesis development, literature review, methodology       design, and manuscript preparation for potential journal publication.
   
-  -- Leading the bachelor, master and P.h.D students for the research.
+  - Leading the bachelor, master and P.h.D students for the research.
   
 # Teaching Experience
 

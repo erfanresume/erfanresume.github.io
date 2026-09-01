@@ -11,7 +11,7 @@ redirect_from:
 
 - **Feb 2026 – Present:**
   
-  - My tasks:
+  My tasks:
     
   - Assisted with study design, protocol development, and research planning for projects in intelligent transportation systems and vehicular networks.
     

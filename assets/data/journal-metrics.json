@@ -1,0 +1,21 @@
+{
+  "ojcoms": {
+    "quartile": "Q1",
+    "impactFactor": "VALUE"
+  },
+
+  "journal-of-supercomputing": {
+    "quartile": "Q1",
+    "impactFactor": "VALUE"
+  },
+
+  "tits": {
+    "quartile": "Q1",
+    "impactFactor": "VALUE"
+  },
+
+  "vehicular-communications": {
+    "quartile": "Q1",
+    "impactFactor": "VALUE"
+  }
+}

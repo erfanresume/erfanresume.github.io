@@ -1,0 +1,1609 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="icon" type="image/png" href="assets/images/favicon.png">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#f6fbff" />
+  <meta
+    name="description"
+    content="Erfan Moghadam — researcher in AI, Intelligent Transportation Systems, VANET/IoV, autonomous driving, and road safety."
+  />
+
+  <title>Erfan Moghadam — AI for Intelligent Mobility</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+  <div class="page-progress" aria-hidden="true"><span></span></div>
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <header class="site-header" id="siteHeader">
+    <a class="brand" href="#home" aria-label="Go to home">
+      <img class="brand-logo" src="assets/images/emo-logo.png" alt="">
+      <span class="brand-copy">
+        <strong>Erfan Moghadam</strong>
+      </span>
+    </a>
+
+    <nav class="desktop-nav" aria-label="Primary navigation">
+      <a href="#about">About</a>
+      <a href="#publications">Publications</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#honors">Honors</a>
+      <a href="#gallery">Gallery</a>
+    </nav>
+
+    <div class="header-actions">
+      <a class="header-cta" href="#contact">Contact</a>
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle color theme">
+        <span class="sun">☀</span>
+        <span class="moon">☾</span>
+      </button>
+      <button class="menu-toggle" id="menuToggle" type="button" aria-label="Open menu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <a href="#about">About</a>
+    <a href="#publications">Publications</a>
+    <a href="#experience">Experience</a>
+    <a href="#education">Education</a>
+    <a href="#honors">Honors</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <main>
+    <section class="hero" id="home">
+      <canvas class="hero-canvas" id="heroCanvas" aria-hidden="true"></canvas>
+
+      <div class="hero-noise" aria-hidden="true"></div>
+      <div class="hero-orb hero-orb-a" aria-hidden="true"></div>
+      <div class="hero-orb hero-orb-b" aria-hidden="true"></div>
+
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow reveal">
+            <span class="live-dot"></span>
+            Research Assistant · University of Tehran
+          </div>
+
+          <h1 class="hero-title reveal">
+            <span class="hero-kicker">Hi, I’m</span>
+            <span class="hero-name">Erfan Moghadam</span>
+          </h1>
+
+          <!--<p class="hero-statement reveal">
+            Building intelligent, reliable systems for
+            <span>connected mobility</span> and
+            <span>autonomous transportation</span>.
+          </p>-->
+
+          <p class="hero-copy-text reveal">
+            My name is Erfan, a Persian name meaning “knowledge” and “insight”, inspired by the Persian literature and poetry.
+          </p>
+          
+          <p class="hero-copy-text reveal">
+            I recently completed my Master’s degree in Computer Engineering and
+            currently work as a Research Assistant and Teaching Assistant at the
+            University of Tehran.
+          </p>
+          
+          <p class="hero-copy-text reveal">
+            Over the past few years, I have had the opportunity to work with researchers
+            from the Université de Montréal, the University of Innsbruck, and
+            Sharif University of Technology, while continuing to develop research
+            around intelligent mobility and connected systems.
+          </p>
+          
+          <p class="hero-copy-text hero-personal reveal">
+            Outside of my academic and professional life, I enjoy running, fitness, swimming, badminton, and staying active.
+          </p>
+
+          <div class="hero-actions reveal">
+            <a class="button button-primary magnetic"
+               href="files/Erfan-Moghadam-CV.pdf"
+               download>
+              Download CV <span>↓</span>
+            </a>
+            <a class="button button-ghost magnetic" href="#contact">
+              Get in touch
+            </a>
+          </div>
+
+          <div class="hero-links reveal" aria-label="External profiles">
+
+            <a href="https://scholar.google.com/citations?user=pCxzPfQAAAAJ&hl=en"
+               target="_blank"
+               rel="noreferrer">
+              <i class="fa-brands fa-google-scholar"></i>
+              Google Scholar
+            </a>
+          
+            <span>•</span>
+          
+            <a href="https://www.researchgate.net/profile/Erfan-Moghadam?ev=hdr_xprf"
+               target="_blank"
+               rel="noreferrer">
+              <i class="fa-brands fa-researchgate"></i>
+              ResearchGate
+            </a>
+          
+            <span>•</span>
+          
+            <a href="https://github.com/erfanresume"
+               target="_blank"
+               rel="noreferrer">
+              <i class="fa-brands fa-github"></i>
+              GitHub
+            </a>
+          
+            <span>•</span>
+          
+            <a href="https://www.linkedin.com/in/erfanresume/"
+               target="_blank"
+               rel="noreferrer">
+              <i class="fa-brands fa-linkedin"></i>
+              LinkedIn
+            </a>
+          
+            <span>•</span>
+          
+            <a href="https://orcid.org/my-orcid?orcid=0009-0004-6741-618X"
+               target="_blank"
+               rel="noreferrer">
+              <i class="fa-brands fa-orcid"></i>
+              ORCID
+            </a>
+          </div>
+        </div>
+        <div class="hero-visual reveal" id="heroVisual">
+          <div class="visual-ring visual-ring-1" aria-hidden="true"></div>
+          <div class="visual-ring visual-ring-2" aria-hidden="true"></div>
+
+          <div class="portrait-wrap" id="portraitTilt">
+
+            <img
+              class="hero-cutout"
+              src="assets/images/erfan-moghadam.png"
+              alt="Erfan Moghadam"
+            >
+          
+          </div>
+
+          <div class="float-chip chip-1">Autonomous Vehicles</div>
+          <div class="float-chip chip-2">Intelligent Transportation Systems</div>
+          <div class="float-chip chip-3">AI in Healthcare</div>
+          <div class="float-chip chip-4">Road Safety</div>
+        </div>
+      </div>
+
+      <a class="scroll-cue" href="#about">
+        <span>Scroll to explore</span>
+        <i></i>
+      </a>
+    </section>
+
+    <section class="section profile-section" id="about">
+      <div class="section-shell">
+
+        <div class="profile-layout">
+
+          <div class="profile-main">
+            <div class="profile-kicker reveal">
+              ACADEMIC PROFILE
+            </div>
+
+            <h2 class="profile-title reveal">
+              AI for intelligent mobility
+              <span>&amp; autonomous systems</span>
+            </h2>
+
+            <div class="profile-copy reveal">
+
+              <p>
+                My research focuses on artificial intelligence and machine learning for
+                intelligent transportation systems, vehicular networks, and autonomous driving.
+                I am especially interested in problems that arise in dynamic environments,
+                where vehicles, infrastructure, and learning-based systems need to interact
+                reliably and make decisions under constantly changing conditions.
+              </p>
+            
+              <p>
+                A large part of my recent work has been centered on VANETs and intelligent
+                mobility, with a particular focus on clustering, cluster-head selection,
+                network stability, and learning-based methods for improving communication
+                and overall system performance.
+              </p>
+            
+              <p>
+                More broadly, I am interested in reinforcement learning, road safety,
+                vision-language-action models, and AI for autonomous and connected systems.
+                I am most drawn to research questions that are not only technically
+                interesting, but can also be evaluated carefully and developed toward
+                practical use in real-world mobility environments.
+              </p>
+            
+            </div>
+          </div>
+
+          <aside class="profile-interests reveal" aria-label="Research interests">
+            <div class="interests-heading">
+              RESEARCH INTERESTS
+            </div>
+
+            <div class="interest-card">
+              <div class="interest-card-title">
+                <span class="interest-icon interest-icon-1"></span>
+                <h3>Intelligent Mobility</h3>
+              </div>
+              <ul>
+                <li>Intelligent Transportation Systems</li>
+                <li>Autonomous Driving</li>
+                <li>Road Safety</li>
+              </ul>
+            </div>
+
+            <div class="interest-card">
+              <div class="interest-card-title">
+                <span class="interest-icon interest-icon-2"></span>
+                <h3>Connected Vehicles &amp; Networks</h3>
+              </div>
+              <ul>
+                <li>VANET / Internet of Vehicles</li>
+                <li>Vehicular Networking</li>
+                <li>Edge / 5G Network Optimization</li>
+              </ul>
+            </div>
+
+            <div class="interest-card">
+              <div class="interest-card-title">
+                <span class="interest-icon interest-icon-3"></span>
+                <h3>Artificial Intelligence</h3>
+              </div>
+              <ul>
+                <li>Machine &amp; Deep Learning</li>
+                <li>Reinforcement Learning</li>
+                <li>AI-driven Decision Making</li>
+              </ul>
+            </div>
+          </aside>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section publications-section" id="publications">
+      <div class="section-shell">
+
+        <div class="publications-header reveal">
+          <div>
+            <div class="section-label">Publications</div>
+            <div class="section-heading publications-heading">
+              <h2>Selected Publications</h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="publication-stack">
+
+          <article class="publication-card publication-card-featured reveal">
+            <div class="publication-side">
+              <span class="publication-year">2026</span>
+            </div>
+
+            <div class="publication-content">
+              <div class="publication-topline">
+
+                <div class="publication-journal-meta">
+              
+                  <span class="publication-venue">
+                    IEEE Open Journal of the Communications Society
+                  </span>
+              
+                  <div class="publication-metrics">
+                    <span class="journal-quartile">Q1</span>
+              
+                    <span class="journal-impact">
+                      Impact Factor 6.1
+                    </span>
+                  </div>
+              
+                </div>
+              
+                <span class="publication-status publication-status-published">
+                  Published
+                </span>
+              
+              </div>
+
+              <h3>
+                Machine Learning-Driven Load Balancing in Edge and 5G Networks:
+                A Comprehensive Survey
+              </h3>
+
+              <p class="publication-authors">
+                <strong>E. Moghadam</strong>, M. Kanso, A. Younesi, B. Safaie
+                
+              </p>
+
+              <p class="publication-collaboration">
+                <span>Collaboration</span>
+                University of Innsbruck, Austria & Sharif University of Technology, Iran
+              </p>
+
+              <div class="publication-actions">
+                <a class="publication-action publication-action-primary"
+                   href="https://doi.org/10.1109/OJCOMS.2026.3728736"
+                   target="_blank"
+                   rel="noreferrer">
+                  DOI <span>↗</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="publication-accent" aria-hidden="true"></div>
+          </article>
+
+
+          <article class="publication-card reveal">
+            <div class="publication-side">
+              <span class="publication-year">2026</span>
+            </div>
+
+            <div class="publication-content">
+
+              <div class="publication-topline">
+
+                <div class="publication-journal-meta">
+              
+                  <span class="publication-venue">
+                    The Journal of Supercomputing · Springer Nature
+                  </span>
+              
+                  <div class="publication-metrics">
+                    <span class="journal-quartile">Q1</span>
+              
+                    <span class="journal-impact">
+                      Impact Factor 3.5
+                    </span>
+                  </div>
+              
+                </div>
+              
+                <span class="publication-status publication-status-published">
+                  Published
+                </span>
+              
+              </div>
+
+              <h3>
+                IMICLiVAN: An Improved Method to Increase Cluster Lifetime in
+                Vehicular Ad Hoc Networks (VANETs)
+              </h3>
+
+              <p class="publication-authors">
+                <strong>Erfan Moghadam</strong>, Elham Asghari, Seyed Amir Asghari,
+                Mohammadreza Binesh Marvasti, Yvon Savaria
+              </p>
+
+              <p class="publication-collaboration">
+                <span>Collaboration</span>
+                Polytechnique Montréal, Canada
+              </p>
+
+              <div class="publication-actions">
+                <a class="publication-action publication-action-primary"
+                   href="https://doi.org/10.1007/s11227-026-08358-z"
+                   target="_blank"
+                   rel="noreferrer">
+                  DOI <span>↗</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="publication-accent" aria-hidden="true"></div>
+          </article>
+
+        
+
+          <!-- Publication 03 -->
+          <article class="publication-card reveal">
+            <div class="publication-side">
+              <span class="publication-year">2026</span>
+            </div>
+
+            <div class="publication-content">
+
+              <div class="publication-topline">
+
+                <div class="publication-journal-meta">
+              
+                  <span class="publication-venue">
+                    IEEE Transactions on Intelligent Transportation Systems
+                  </span>
+              
+                  <div class="publication-metrics">
+                    <span class="journal-quartile">Q1</span>
+              
+                    <span class="journal-impact">
+                      Impact Factor 9.1
+                    </span>
+                  </div>
+              
+                </div>
+              
+                <span class="publication-status publication-status-submitted">
+                  Submitted
+                </span>
+              
+              </div>
+
+              <h3>
+                Zone-Based Cluster Head Selection and Dynamic Clustering Mechanisms
+                in Vehicular Ad-Hoc Networks
+              </h3>
+
+              <p class="publication-authors">
+                <strong>E. Moghadam</strong>, S. Karami, B. Mohammadzadeh,
+                S. A. Asghari
+              </p>
+
+              <p class="publication-collaboration">
+                <span>Collaboration</span>
+                Polytechnique Montréal, Canada
+              </p>
+
+            </div>
+
+            <div class="publication-accent" aria-hidden="true"></div>
+          </article>
+
+
+          <!-- Publication 04 -->
+          <article class="publication-card reveal">
+            <div class="publication-side">
+              <span class="publication-year">2026</span></span>
+            </div>
+
+            <div class="publication-content">
+
+              <div class="publication-topline">
+
+                <div class="publication-journal-meta">
+              
+                  <span class="publication-venue">
+                    Vehicular Communications
+                  </span>
+              
+                  <div class="publication-metrics">
+                    <span class="journal-quartile">Q1</span>
+              
+                    <span class="journal-impact">
+                      Impact Factor 5.7
+                    </span>
+                  </div>
+              
+                </div>
+              
+                <span class="publication-status publication-status-submitted">
+                  Submitted
+                </span>
+              
+              </div>
+              
+              <h3>
+                Cluster Stabilization and Cluster Head Oscillation Reduction Protocol
+                for Stable Vehicular Ad Hoc Networks
+              </h3>
+
+              <p class="publication-authors">
+                P. Afshari, S. A. Asghari, M. A. Tabatabaei,
+                <strong>E. Moghadam</strong>, M. Taghipour
+              </p>
+
+              <p class="publication-collaboration">
+                <span>Collaboration</span>
+                University of Tehran, Iran
+              </p>
+            </div>
+
+            <div class="publication-accent" aria-hidden="true"></div>
+          </article>
+
+
+          <!-- Publication 05 -->
+          <article class="publication-card reveal">
+            <div class="publication-side">
+              <span class="publication-year">2026</span>
+            </div>
+
+            <div class="publication-content">
+
+              <div class="publication-topline">
+
+                <div class="publication-journal-meta">
+              
+                  <span class="publication-venue">
+                    IEEE Transactions on Intelligent Transportation Systems
+                  </span>
+              
+                  <div class="publication-metrics">
+                    <span class="journal-quartile">Q1</span>
+              
+                    <span class="journal-impact">
+                      Impact Factor 9.1
+                    </span>
+                  </div>
+              
+                </div>
+              
+                <span class="publication-status publication-status-submitted">
+                  Submitted
+                </span>
+              
+              </div>
+
+              <h3>
+                A Predictive Clustering Framework for VANETs Using Graph Regularized
+                Deep NMF and Temporal Cluster Head Selection
+              </h3>
+
+              <p class="publication-authors">
+                M. Taghipour, S. A. Asghari, Hadi Veisi,
+                <strong>E. Moghadam</strong>, P. Afshari, M. A. Tabatabaei
+              </p>
+
+              <p class="publication-collaboration">
+                <span>Collaboration</span>
+                Polytechnique Montréal, Canada & University of Tehran, Iran
+              </p>
+
+            </div>
+
+            <div class="publication-accent" aria-hidden="true"></div>
+          </article>
+
+
+          <!-- Publication 06 -->
+          <article class="publication-card reveal">
+            <div class="publication-side">
+              <span class="publication-year">2026</span>
+            </div>
+
+            <div class="publication-content">
+
+              <div class="publication-topline">
+
+                <!--<div class="publication-journal-meta">
+              
+                  <span class="publication-venue">
+                    
+                  </span>
+              
+                  <div class="publication-metrics">
+                    <span class="journal-quartile"></span>
+              
+                    <span class="journal-impact">
+                      
+                    </span>
+                  </div>
+              
+                </div>-->
+              
+                <span class="publication-status publication-status-progress">
+                  In Progress
+                </span>
+              
+              </div>
+              
+
+              <h3>
+                STARC-VANET: Deep Reinforcement Learning for Temporal-Consistency-Aware
+                Multi-Metric Clustering and Cluster-Head Selection
+              </h3>
+
+              <p class="publication-authors">
+                <strong>E. Moghadam</strong>, M. Kanso, A. Younesi, B. Safaie
+                
+              </p>
+
+              <p class="publication-collaboration">
+                <span>Collaboration</span>
+                University of Innsbruck, Austria & Sharif University of Technology, Iran
+              </p>
+
+            </div>
+
+            <div class="publication-accent" aria-hidden="true"></div>
+          </article>
+
+
+          <!-- Publication 07 -->
+          <article class="publication-card reveal">
+            <div class="publication-side">
+              <span class="publication-year">2026</span>
+            </div>
+
+            <div class="publication-content">
+
+              <div class="publication-topline">
+
+                <!--<div class="publication-journal-meta">
+              
+                  <span class="publication-venue">
+                    IEEE Open Journal of the Communications Society,
+                  </span>
+              
+                  <div class="publication-metrics">
+                    <span class="journal-quartile">Q1</span>
+              
+                    <span class="journal-impact">
+                      Impact Factor 8.4
+                    </span>
+                  </div>
+              
+                </div>-->
+              
+                <span class="publication-status publication-status-progress">
+                  In Progress
+                </span>
+              
+              </div>
+
+              <h3>
+                Improving Road Emergency Prioritization by Modified Zone-Based
+                Cluster Head Selection and Dynamic Clustering Mechanisms in
+                Vehicular Ad-Hoc Networks
+              </h3>
+
+              <p class="publication-authors">
+                <strong>E. Moghadam</strong>, S. Karami, S. A. Asghari
+              </p>
+
+              <p class="publication-collaboration">
+                <span>Collaboration</span>
+                University of Tehran, Iran
+              </p>
+
+            </div>
+
+            <div class="publication-accent" aria-hidden="true"></div>
+          </article>
+
+</div>
+        <button
+          class="publications-more publications-toggle reveal"
+          id="publicationsToggle"
+          type="button"
+          aria-expanded="false"
+        >
+          <span class="publications-toggle-label">
+            Show all publications
+          </span>
+
+          <span class="publications-more-arrow" aria-hidden="true">
+            ↓
+          </span>
+        </button>
+
+      </div>
+    </section>
+
+    <section class="section experience-section" id="experience">
+      <div class="section-shell">
+        <div class="section-label reveal">Experience</div>
+
+        <div class="section-heading reveal">
+          <h2>Research, Teaching &amp; Professional Experience</h2>
+        </div>
+
+        <div class="experience-group-title reveal">Academic &amp; Research</div>
+
+        <div class="experience-timeline">
+
+          <article class="experience-entry reveal">
+            <div class="experience-node" aria-hidden="true"></div>
+
+            <div class="experience-card">
+              <div class="experience-date">
+                FEB 2026 — PRESENT
+              </div>
+
+              <h3>Research Assistant</h3>
+
+              <h4>
+                University of Tehran · Full-time · Tehran, Iran
+              </h4>
+
+              <ul>
+                <li>
+                  Assisting with study design, protocol development, and research planning
+                  for projects in intelligent transportation systems and vehicular networks.
+                </li>
+
+                <li>
+                  Implementing technical components and performing data analysis for
+                  research experiments.
+                </li>
+
+                <li>
+                  Collecting, organizing, and analyzing simulation data to support ongoing
+                  research activities.
+                </li>
+
+                <li>
+                  Mentoring seminar students under Dr. Amir Asghari’s supervision, including
+                  thesis development, literature review, methodology design, and manuscript
+                  preparation.
+                </li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="experience-entry reveal">
+            <div class="experience-node" aria-hidden="true"></div>
+
+            <div class="experience-card">
+              <div class="experience-date">
+                FEB 2024 — JUN 2024 · FEB 2025 — JUN 2025 · FEB 2026 — PRESENT
+              </div>
+
+              <h3>
+                Teaching Assistant — Advanced Computer Networks
+              </h3>
+
+              <h4>
+                University of Tehran · Part-time · Tehran, Iran
+              </h4>
+
+              <ul>
+                <li>
+                  Collaborated in lecture delivery and course activities.
+                </li>
+
+                <li>
+                  Designed and graded assignments and supported students throughout
+                  the course.
+                </li>
+
+                <li>
+                  Supervised final projects and provided technical guidance.
+                </li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="experience-entry reveal">
+            <div class="experience-node" aria-hidden="true"></div>
+
+            <div class="experience-card">
+              <div class="experience-date">
+                SEP 2024 — FEB 2025
+              </div>
+
+              <h3>
+                Lecturer — Logic Circuit Laboratory
+              </h3>
+
+              <h4>
+                Amirkabir University of Technology (Tehran Polytechnic)
+                · Full-time · Tehran, Iran
+              </h4>
+
+              <ul>
+                <li>
+                  Delivered lectures and hands-on training in digital logic circuit design
+                  and implementation.
+                </li>
+
+                <li>
+                  Taught Xilinx ISE and Verilog programming.
+                </li>
+
+                <li>
+                  Supervised FPGA-based projects, including smart parking systems.
+                </li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="experience-entry reveal">
+            <div class="experience-node" aria-hidden="true"></div>
+
+            <div class="experience-card">
+              <div class="experience-date">
+                SEP 2023 — FEB 2024
+              </div>
+
+              <h3>Teaching Assistant</h3>
+
+              <h4>
+                Kharazmi University · Part-time · Tehran, Iran
+              </h4>
+
+              <ul>
+                <li>
+                  <strong>Advanced Computer Architecture:</strong>
+                  Supported students in processor design, memory hierarchy, pipelining,
+                  parallel computing, assignments, and technical discussions.
+                </li>
+
+                <li>
+                  <strong>Fault-Tolerant Systems:</strong>
+                  Assisted with teaching fault-tolerance concepts and applications in
+                  healthcare and IoT.
+                </li>
+
+                <li>
+                  <strong>Special Topics in Computer Architecture:</strong>
+                  Taught pipeline architecture, single-cycle processors, and advanced
+                  system design, and supervised Verilog projects.
+                </li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="experience-entry reveal">
+            <div class="experience-node" aria-hidden="true"></div>
+
+            <div class="experience-card">
+              <div class="experience-date">
+                SEP 2020 — FEB 2021
+              </div>
+
+              <h3>
+                Teaching Assistant — Natural Language &amp; Speech Processing
+              </h3>
+
+              <h4>
+                University of Zanjan · Part-time · Zanjan, Iran
+              </h4>
+
+              <ul>
+                <li>
+                  Assisted in lecture delivery and guided students through fundamental
+                  Natural Language Processing concepts.
+                </li>
+
+                <li>
+                  Evaluated assignments and provided technical support for student projects.
+                </li>
+              </ul>
+            </div>
+          </article>
+
+        </div>
+
+        <div class="experience-group-title experience-group-title-industry reveal">
+          Industry Experience
+        </div>
+
+        <div class="experience-timeline experience-timeline-industry">
+
+          <article class="experience-entry reveal">
+            <div class="experience-node" aria-hidden="true"></div>
+
+            <div class="experience-card experience-card-industry">
+              <div class="experience-date">
+                SEP 2022 — PRESENT
+              </div>
+
+              <h3>Machine Learning Engineer</h3>
+
+              <h4>
+                Araz Sanat Abhar Company · Part-time · Abhar, Zanjan, Iran
+              </h4>
+
+              <p class="experience-industry">
+                Network Infrastructure &amp; AI-Powered Video Surveillance Systems
+              </p>
+
+              <ul>
+                <li>
+                  Design and development of machine learning and artificial intelligence models.
+                </li>
+
+                <li>
+                  Development and deployment of intelligent systems.
+                </li>
+
+                <li>
+                  Participation in research and development projects.
+                </li>
+
+                <li>
+                  Collaboration with multidisciplinary engineering teams in the development
+                  of intelligent products.
+                </li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="experience-entry reveal">
+            <div class="experience-node" aria-hidden="true"></div>
+
+            <div class="experience-card experience-card-industry">
+              <div class="experience-date">
+                AUG 2023 — SEP 2023
+              </div>
+
+              <h3>Backend Developer Intern (.NET)</h3>
+
+              <h4>
+                Okala Company · Full-time · Tehran, Iran
+              </h4>
+
+              <p class="experience-industry">
+                E-commerce, Online Retail &amp; Consumer Goods Distribution
+              </p>
+
+
+              <ul>
+                <li>
+                  Developed secure RESTful APIs for financial transaction processing.
+                </li>
+
+                <li>
+                  Optimized SQL database queries for transaction history retrieval.
+                </li>
+
+                <li>
+                  Debugged, troubleshot, and improved existing backend components under
+                  the supervision of the technical team.
+                </li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="experience-entry reveal">
+            <div class="experience-node" aria-hidden="true"></div>
+
+            <div class="experience-card experience-card-industry">
+              <h3>Web Design &amp; SEO Intern</h3>
+
+              <h4>
+                Seopich Company · Full-time · Tehran, Iran
+              </h4>
+
+              <p class="experience-industry">
+                Web Design &amp; Search Engine Optimization
+              </p>
+
+              <ul>
+                <li>
+                  Designed responsive client websites using HTML/CSS and optimized
+                  page speed.
+                </li>
+
+                <li>
+                  Implemented on-page SEO, including meta tags, alt attributes,
+                  and internal linking, for 8+ websites.
+                </li>
+              </ul>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!--<section class="section collaborators-section" id="collaborators">
+
+      <div class="section-shell">
+    
+        <div class="section-label reveal">
+          Academic Network
+        </div>
+    
+        <div class="section-heading reveal">
+          <h2>Academic Collaborators</h2>
+        </div>
+    
+    
+        <div class="collaborators-grid">
+    
+    
+          <article class="collaborator-card reveal">
+    
+            <img
+              src="assets/images/collaborators/amir-asghari.jpg"
+              alt="Dr. Amir Asghari"
+              class="collaborator-photo"
+            >
+    
+            <div class="collaborator-info">
+    
+              <span class="collaborator-role">
+                Master's Supervisor
+              </span>
+    
+              <h3>
+                Dr. Amir Asghari
+              </h3>
+    
+              <p>
+                Department of Data Science and Technology, University of Tehran
+              </p>
+    
+              <a href="https://profile.ut.ac.ir/en/~s.a.asghari" target="_blank" rel="noopener">
+                View Profile ↗
+              </a>
+    
+            </div>
+    
+          </article>
+    
+    
+          
+          <article class="collaborator-card reveal">
+
+            <img
+              src="assets/images/collaborators/bardia-safaei.jpg"
+              alt="Dr. Bardia Safaei"
+              class="collaborator-photo"
+            >
+
+            <div class="collaborator-info">
+
+              <span class="collaborator-role">
+                Research Mentor &amp; Collaborator
+              </span>
+
+              <h3>
+                Dr. Bardia Safaei
+              </h3>
+
+              <p>
+                Sharif University of Technology
+              </p>
+
+              <a href="#" target="_blank" rel="noopener">
+                University Profile ↗
+              </a>
+
+            </div>
+
+          </article>
+
+
+          
+          <article class="collaborator-card reveal">
+
+            <img
+              src="assets/images/collaborators/abolfazl-younesi.jpg"
+              alt="Dr. Abolfazl Younesi"
+              class="collaborator-photo"
+            >
+
+            <div class="collaborator-info">
+
+              <span class="collaborator-role">
+                Research Collaborator
+              </span>
+
+              <h3>
+                Dr. Abolfazl Younesi
+              </h3>
+
+              <p>
+                University of Innsbruck
+              </p>
+
+              <a href="#" target="_blank" rel="noopener">
+                Research Profile ↗
+              </a>
+
+            </div>
+
+          </article>
+
+
+          
+          <article class="collaborator-card reveal">
+
+            <img
+              src="assets/images/collaborators/yvon-savaria.jpg"
+              alt="Prof. Yvon Savaria"
+              class="collaborator-photo"
+            >
+
+            <div class="collaborator-info">
+
+              <span class="collaborator-role">
+                Research Collaborator
+              </span>
+
+              <h3>
+                Prof. Yvon Savaria
+              </h3>
+
+              <p>
+                Polytechnique Montréal
+              </p>
+
+              <a href="#" target="_blank" rel="noopener">
+                University Profile ↗
+              </a>
+
+            </div>
+
+          </article>
+
+
+          
+          <article class="collaborator-card reveal">
+
+            <img
+              src="assets/images/collaborators/morteza-sahebzamani.jpg"
+              alt="Prof. Morteza Saheb Zamani"
+              class="collaborator-photo"
+            >
+
+            <div class="collaborator-info">
+
+              <span class="collaborator-role">
+                Academic Mentor
+              </span>
+
+              <h3>
+                Prof. Morteza Saheb Zamani
+              </h3>
+
+              <p>
+                Amirkabir University of Technology
+              </p>
+
+              <a href="#" target="_blank" rel="noopener">
+                University Profile ↗
+              </a>
+
+            </div>
+
+          </article>
+    
+    
+        </div>
+    
+      </div>
+    
+    </section>-->
+
+    <section class="section education-section" id="education">
+      <div class="section-shell">
+        <div class="section-label reveal">Education</div>
+
+        <div class="section-heading reveal">
+          <h2>Academic Background</h2>
+        </div>
+
+        <div class="academic-grid">
+
+          <article class="academic-card reveal">
+            <div class="academic-date">
+              SEP 2022 — FEB 2026 · M.SC. COMPUTER ENGINEERING
+            </div>
+
+            <h3>Kharazmi University</h3>
+
+            <p class="academic-subtitle">
+              Computer Systems Architecture · GPA 4.00/4.00
+            </p>
+
+            <div class="academic-detail">
+              <strong>Thesis</strong>
+              <span>
+                Providing an Enhanced Clustering Algorithm for Vehicular Ad-hoc Networks
+                · Grade 20/20
+              </span>
+            </div>
+
+            <div class="academic-detail">
+              <strong>Supervisors</strong>
+              <span>
+                Dr. Amir Asghari · Dr. Mohammadreza Binesh Marvasti
+              </span>
+            </div>
+          </article>
+
+          <article class="academic-card reveal">
+            <div class="academic-date">
+              SEP 2017 — SEP 2022 · B.SC. COMPUTER ENGINEERING
+            </div>
+
+            <h3>University of Zanjan</h3>
+
+            <p class="academic-subtitle">
+              Computer Engineering · GPA 3.27/4.00
+            </p>
+
+            <div class="academic-detail">
+              <strong>Final Project</strong>
+              <span>
+                Time Series Forecasting with LSTMs for Daily COVID-19 Cases using PyTorch
+              </span>
+            </div>
+
+            <div class="academic-detail">
+              <strong>Project Supervisor</strong>
+              <span>
+                Dr. Leila Safari
+              </span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section honors-section" id="honors">
+      <div class="section-shell">
+    
+        <div class="section-label reveal">
+          Honors &amp; Awards
+        </div>
+    
+        <div class="section-heading reveal">
+          <h2>Honors &amp; Awards</h2>
+        </div>
+    
+    
+        <div class="honors-grid" id="honorsGrid">
+    
+          <!-- 01 -->
+          <article class="honor-card reveal">
+            <div class="honor-icon" aria-hidden="true">01</div>
+    
+            <div class="honor-copy">
+              <span class="honor-kicker">
+                Academic Excellence
+              </span>
+    
+              <h3>
+                Ranked 1st in M.Sc. Cohort
+              </h3>
+    
+              <p>
+                Kharazmi University · Computer Engineering
+              </p>
+            </div>
+          </article>
+    
+    
+          <!-- 02 -->
+          <article class="honor-card reveal">
+            <div class="honor-icon" aria-hidden="true">02</div>
+    
+            <div class="honor-copy">
+              <span class="honor-kicker">
+                Graduate Achievement
+              </span>
+    
+              <h3>
+                4.0 / 4.0 M.Sc. GPA
+              </h3>
+    
+              <p>
+                Academic performance in graduate studies.
+              </p>
+            </div>
+          </article>
+    
+    
+          <!-- 03 -->
+          <article class="honor-card reveal">
+            <div class="honor-icon" aria-hidden="true">03</div>
+    
+            <div class="honor-copy">
+              <span class="honor-kicker">
+                Research Achievement
+              </span>
+    
+              <h3>
+                Full Thesis Grade (20 / 20)
+              </h3>
+    
+              <p>
+                Master's thesis evaluation.
+              </p>
+            </div>
+          </article>
+    
+    
+          <!-- 04 -->
+          <article class="honor-card reveal">
+            <div class="honor-icon" aria-hidden="true">04</div>
+    
+            <div class="honor-copy">
+              <span class="honor-kicker">
+                Academic Scholarship
+              </span>
+    
+              <h3>
+                Full Tuition Waiver Scholarship — M.Sc.
+              </h3>
+    
+              <p>
+                Kharazmi University · Computer Engineering
+              </p>
+            </div>
+          </article>
+    
+    
+          <!-- 05 -->
+          <article class="honor-card reveal">
+            <div class="honor-icon" aria-hidden="true">05</div>
+    
+            <div class="honor-copy">
+              <span class="honor-kicker">
+                National Academic Ranking
+              </span>
+    
+              <h3>
+                Ranked 172 Among 40,000 Candidates
+              </h3>
+    
+              <p>
+                National M.Sc. Entrance Examination · Top 0.5% Nationwide
+              </p>
+            </div>
+          </article>
+    
+    
+          <!-- 06 -->
+          <article class="honor-card reveal">
+            <div class="honor-icon" aria-hidden="true">06</div>
+    
+            <div class="honor-copy">
+              <span class="honor-kicker">
+                Academic Scholarship
+              </span>
+    
+              <h3>
+                Full Tuition Waiver Scholarship — B.Sc.
+              </h3>
+    
+              <p>
+                University of Zanjan · Computer Engineering
+              </p>
+            </div>
+          </article>
+    
+        </div>
+    
+    
+        <div class="honors-toggle-wrap">
+          <button
+            class="honors-toggle"
+            id="honorsToggle"
+            type="button"
+            aria-expanded="false"
+          >
+            <span class="honors-toggle-label">
+              Show all honors
+            </span>
+    
+            <span class="honors-toggle-arrow" aria-hidden="true">
+              ↓
+            </span>
+          </button>
+        </div>
+    
+      </div>
+    </section>
+
+    <section class="section gallery-section" id="gallery">
+      <div class="section-shell">
+    
+        <div class="section-label reveal">
+          Gallery
+        </div>
+    
+        <div class="section-heading reveal">
+          <h2>Research &amp; Academic Moments</h2>
+        </div>
+    
+        <p class="gallery-intro reveal">
+          Research, teaching, collaborations, and academic moments.
+        </p>
+    
+    
+        <div class="gallery-scroll-shell reveal">
+    
+          <div class="gallery-scroll">
+    
+            <!-- 01 -->
+            <figure class="gallery-card-horizontal gallery-card-portrait">
+    
+              <div class="gallery-photo-wrap">
+                <img
+                  src="assets/images/gallery-1.jpg"
+                  alt="Research and development work"
+                  class="gallery-scroll-image"
+                  loading="lazy"
+                >
+              </div>
+    
+              <figcaption>
+                <span>Research</span>
+                <h3>Before the AI in Autonomous Driving and Neuroscience workshop I organized.</h3>
+              </figcaption>
+    
+            </figure>
+    
+    
+            <!-- 02 -->
+            <figure class="gallery-card-horizontal gallery-card-wide">
+    
+              <div class="gallery-photo-wrap">
+                <img
+                  src="assets/images/gallery-2.jpg"
+                  alt="Teaching and mentoring with students"
+                  class="gallery-scroll-image"
+                  loading="lazy"
+                >
+              </div>
+    
+              <figcaption>
+                <span>Teaching</span>
+                <h3>Teaching Logic Circuits to brilliant students at Amirkabir University of Technology</h3>
+              </figcaption>
+    
+            </figure>
+    
+    
+            <!-- 03 -->
+            <figure class="gallery-card-horizontal gallery-card-portrait">
+    
+              <div class="gallery-photo-wrap">
+                <img
+                  src="assets/images/gallery-3.jpg"
+                  alt="Academic and professional meeting"
+                  class="gallery-scroll-image"
+                  loading="lazy"
+                >
+              </div>
+    
+              <figcaption>
+                <span>Industry</span>
+                <h3>Sharing ideas with Dr. Amir Asghari at his company</h3>
+              </figcaption>
+    
+            </figure>
+    
+    
+            <!-- 04 -->
+            <figure class="gallery-card-horizontal gallery-card-wide">
+    
+              <div class="gallery-photo-wrap">
+                <img
+                  src="assets/images/gallery-4.jpg"
+                  alt="Academic teaching activity"
+                  class="gallery-scroll-image"
+                  loading="lazy"
+                >
+              </div>
+    
+              <figcaption>
+                <span>Teaching</span>
+                <h3>After a regular class</h3>
+              </figcaption>
+    
+            </figure>
+
+            
+    
+          </div>
+    
+    
+          <div class="gallery-scroll-hint">
+            <span class="gallery-scroll-line"></span>
+    
+            <span>
+              Scroll left or right to browse
+            </span>
+    
+            <span aria-hidden="true">→</span>
+          </div>
+    
+        </div>
+    
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+
+      <canvas
+        class="contact-canvas"
+        id="contactCanvas"
+        aria-hidden="true">
+      </canvas>
+    
+      <div class="contact-shell">
+    
+        <span class="contact-kicker">Contact</span>
+    
+        <h2>
+          Let’s connect.
+        </h2>
+    
+        <p>
+          For research collaborations, academic opportunities,
+          or professional inquiries, feel free to reach out.
+        </p>
+    
+        <div class="contact-emails">
+    
+          <a href="mailto:erfanmoghaddam1999@gmail.com">
+            erfanmoghaddam1999@gmail.com
+          </a>
+    
+          <a href="mailto:erfanmoghadam@khu.ac.ir">
+            erfanmoghadam@khu.ac.ir
+          </a>
+    
+        </div>
+    
+        <div class="contact-socials">
+    
+          <a href="YOUR-GOOGLE-SCHOLAR"
+             target="_blank"
+             rel="noreferrer">
+            Google Scholar ↗
+          </a>
+    
+          <a href="YOUR-LINKEDIN"
+             target="_blank"
+             rel="noreferrer">
+            LinkedIn ↗
+          </a>
+    
+          <a href="https://github.com/erfanresume"
+             target="_blank"
+             rel="noreferrer">
+            GitHub ↗
+          </a>
+    
+          <a href="YOUR-RESEARCHGATE"
+             target="_blank"
+             rel="noreferrer">
+            ResearchGate ↗
+          </a>
+    
+          <a href="YOUR-ORCID"
+             target="_blank"
+             rel="noreferrer">
+            ORCID ↗
+          </a>
+    
+        </div>
+    
+      </div>
+    
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>© 2026 Erfan Moghadam</span>
+    <span>AI · Intelligent Mobility · Autonomous Systems</span>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+  <script type="module" src="assets/js/scene.js"></script>
+</body>
+</html>
